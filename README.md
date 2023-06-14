@@ -16,7 +16,8 @@
 
 ## 使用方式
 
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_git_repo=https://github.com/louis70109/FastAPI-Cloud-Run-Sample&cloudshell_working_dir=/&cloudshell_image=gcr.io/cloudshell-images/cloudshell:latest&cloudshell_codelab=./cloudbuild.yaml)
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
 
 ```
 git clone https://github.com/louis70109/FastAPI-Cloud-Run-Sample.git
