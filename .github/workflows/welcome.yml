@@ -1,0 +1,30 @@
+name: Welcome
+on:
+  pull_request:
+    types: [opened, closed]
+  issues:
+    types: [opened]
+jobs:
+  welcome:
+    name: Welcome
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/welcome@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FIRST_ISSUE: |
+            👋 @{{ author }} Thanks for opening your first issue here! 
+
+            Terda team will check and get back to you soon! 
+            Please make sure that all information is filled required in the issue template.
+
+          FIRST_PR: |
+            👋 @{{ author }} Thanks for opening this pull request! 
+
+            Please make sure that the resources are formatted correctly.
+            I will review your pull request as soon as possible.
+
+          FIRST_PR_MERGED: |
+            🎉 @{{ author }} Congrats on merging your first pull request!
+
+            Let's build the future together 🚀
