@@ -8,7 +8,7 @@ if os.getenv('API_ENV') != 'production':
 
 app = FastAPI()
 
-
+# API for the initail page
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
