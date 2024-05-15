@@ -27,6 +27,12 @@ cd FastAPI-Cloud-Run-Sample/
 gcloud run deploy my-fastapi-example --source .
 ```
 
+## steps
+
+1. 123
+2. 435435
+3. fdff
+
 ## 授權
 
 MIT
