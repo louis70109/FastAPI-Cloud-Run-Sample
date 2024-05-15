@@ -1,0 +1,24 @@
+{
+  "name": "skatepark-line",
+  "env": {
+    "LINE_CHANNEL_ACCESS_TOKEN": {
+      "description": "LINE Bot access token",
+      "value": "ooooo",
+      "required": true
+    },
+    "API_ENV": {
+      "description": "API environment",
+      "value": "",
+      "required": true
+    }
+  },
+  "options": {
+    "allow-unauthenticated": true,
+    "memory": "256Mi",
+    "cpu": "1",
+    "port": 8080,
+    "http2": false,
+    "concurrency": 5,
+    "max-instances": 2
+  }
+}
